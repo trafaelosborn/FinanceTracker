@@ -18,7 +18,7 @@ app.use(express.static("public"));
 
 mongoose.connect(
   MONGODB_URI ||
-    "mongodb://budget:tracker1@ds133202.mlab.com:33202/heroku_90s5g5jl",
+    "mongodb+srv://dbuser:FezzyWig@cluster0-9h5jf.mongodb.net/test?retryWrites=true&w=majority",
   {
     useNewUrlParser: true,
     useFindAndModify: false
